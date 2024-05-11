@@ -18,4 +18,4 @@ This repository contains the U-Boot 1.1.6 bootloader for the MSTAR KRNOUS board.
 * Environment settings via SERIAL
 
 ## Boot Log for Debugging
-- The repository includes a full boot log file (boot_log.txt) for debugging purposes.
+- The repository includes a full boot log file (uboot.txt) for debugging purposes.

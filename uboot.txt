@@ -1,0 +1,1074 @@
+▒
+BOOTSPI[34567893456789]_OK!decomp
+_done
+MDrv_PM_RtcGetCounter(CurrentCounter=0)
+
+Hello U-Boot
+
+
+U-Boot 1.1.6 (Jun  8 2016 - 02:04:11)
+
+Board: MSTAR KRNOUS (CPU Speed 552 MHz)
+DRAM:  64 X 0 MBytes
+U-Boot is running at DRAM 0x87610000
+###############BOARD CONFIGURATION#####################
+        DEFAULT ENBALE L2-Cache
+        FPU(ENABLE)
+   DDR_FREQUENCY(1066MHz)
+###############BOARD CONFIGURATION#####################
+Module: USB FAT FLASH SPI LOGO OSD ENV=SERIAL
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+In:    serial
+Out:   serial
+Err:   serial
+MSVC00B000100100208768TH0000000T
+MDrv_PNL_Init u32PnlRiuBaseAddr = BF200000
+MDrv_PNL_Init u32PMRiuBaseAddr = BF000000
+[XC,Version] 00423696
+ DAC eTiming =6
+HDMITx eTiming =7
+HDMITx eTiming =7
+u32ReadBuffVirAddr = A0000000, u32IntBuffVirAddr = A0100000, u32OutBuffVirAddr =                                                                                                  A0730000
+verJPD_SetStatus >>>>>>>>>>> w:720,  h:576,  p:720
+GE_SetOnePixelMode
+Hit any key to stop autoboot:  0
+WDT Initialize ...
+Start 75F2000 End 76AC000
+UnProtect MIU block 0 : 0x75F2000 0x76AC000
+offset 0x8001C, size 0x279839
+WARNING: it is better to set flash start addr aligned to 65536 !!!
+WARNING: it is better to set total length aligned to 65536 !!!
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+initialization done!
+in=0x80B00000, in_size=0x279839, out= 0x80000180, alloc_buf = 0x81000000
+in=0x80B00000, in_size=0x279839, out= 0x80000180, alloc_buf = 0x81000000
+in_size=2594873 out_size=7516404 unpack_size=0
+
+LZMA Decompression...CRC_result 4E033ABF CRC_value 4E033ABF
+CRC check success !!
+ok
+## Starting application at 0x80000224 ...
+[cyg_net_init] Init: mbinit(0x00000000)
+[cyg_net_init] Init: cyg_net_init_devs(0x00000000)
+Init device 'pcnet_eth0'
+[cyg_net_init] Init: loopattach(0x00000000)
+[cyg_net_init] Init: ifinit(0x00000000)
+[cyg_net_init] Init: domaininit(0x00000000)
+[cyg_net_init] Init: cyg_net_add_domain(0x806dd2e4)
+New domain internet at 0x00000000
+[cyg_net_init] Init: cyg_net_add_domain(0x806dceac)
+New domain route at 0x00000000
+[cyg_net_init] Init: call_route_init(0x00000000)
+[cyg_net_init] Done
+****** Customer_info:Before ******
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+ abcdef => 0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+ ABCDEF => 0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+
+****** Customer_info ******
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+Customer info: 00580565002f000000000000000000000000000668f81800
+Hash: 1435f42f0715159735d1fb9fd855bb97
+Auth OK
+
+Hardware Initialize...
+MDrv_MIOMap_Init
+[HAL_MIU_SetPMIOMapBase][1107] Non implement for MIU _gPM_MapBase= bf000000
+MsOS_Init
+_MApi_SystemInit_CreateMemoryPool
+upoolSize = 320000 and u32Addr = 9D9120
+mdrv_gpio_init
+MIU Initialize...
+Get IOMap u32NonPmBase = 0xbf200000
+Get IOMap u32PmBase = 0xbf000000
+Disable MIU1
+WDT_Init
+MDrv_WDT_IsReset = 0
+Hello Hummingbird!!
+_appDemo_Task.iId = 1985216513
+[_SysInit_InitAPI][1698]SPI Flash Driver Init !!
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+create Audio SHM data ...
+
+HAL_MAD_SetMemInfo[DSP_DEC] = 0x03b00000
+
+HAL_MAD2_SetMemInfo[DSP_SE] = 0x03a00000
+ ADEC Done and do default setting 4
+===== Check Audio Decoder Protection from hash-key IP =====
+Hash-key Support DD.
+Hash-key Support DD+.
+Hash-key Support Generic HE-AAC !!
+Hash-key Support WMA.
+Hash Key Check DRA Fail, No DRA license!!
+===== Check Protection IP End                         =====
+MDrv_SERFLASH_GetInfo()
+        u32AccessWidth = 1
+        u32TotalSize   = 4194304
+        u32SecNum      = 64
+        u32SecSize     = 65536
+MDrv_PNL_Init u32PnlRiuBaseAddr = bf200000
+MDrv_PNL_Init u32PMRiuBaseAddr = bf000000
+[XC,Version] 00625983
+ DAC eTiming =6
+DAC eTiming =6
+HDMITx eTiming =7
+Wait V Sync!!
+GE_SetOnePixelMode
+driver GE init ok
+[_SysInit_GEGOP][1258]
+[_SysInit_GEGOP][1267]
+[_SysInit_GEGOP][1293]driver GOP0 init ok
+[_SysInit_GEGOP][1293]driver GOP1 init ok
+[_SysInit_GEGOP][1293]driver GOP2 init ok
+Path2
+Set to Mixer
+GE_Init and VE setting done
+BASEADDRESS_STRING_DATABASE_IN_FLASH = 00370000
+BASEADDRESS_BITMAP_DATABASE_IN_FLASH = 00370000
+BASEADDRESS_GENSETTING_IN_FLASH = 00370000
+BASEADDRESS_CURRENT_DTV_ORDER_IN_FLASH = 00380000
+BASEADDRESS_CH_DATABASE_IN_FLASH = 00390000
+BASEADDRESS_MOSAIC_IN_FLASH = 003D0000
+BASEADDRESS_TFCA_MAIL_IN_FLASH = 003D0000
+NUMBER_OF_CURRENT_DTV_PROGRAM = 00001000
+USB init
+MDrv_Usb_Init..
+Usb init
+The base address is 0xA16AB000
+Base addr is 0xA16AB000
+Top addr is 0xA16BAFFF
+Pages per pool is 16
+Bit map base addr is 0xa16aafd0
+usb_init start
+usb_hcd_cpe_ehci_probe
+ehci: 80cf7fa0
+hcd: 80cf7fd4
+The allocated addr is 0xa16ab000, bit_map[0] is 0xFFFFFFFE
+qh: a16ab000, qh->qh_dma: 16ab000
+The allocated addr is 0xa16ac000, bit_map[0] is 0xFFFFFFFC
+The allocated addr is 0xa16ad000, bit_map[0] is 0xFFFFFFF8
+qh: 16ab000
+usb_new_device
+usb_set_address before
+usb_set_address after
+The allocated addr is 0xa16ae000, bit_map[0] is 0xFFFFFFF0
+InitUSBIntr enter
+Usb start..
+MDrv_Usb_Done ...........UsbTask..
+......................................
+>>> Allocate Addr = A16A7EC0 , FwPhyAddr = 016A7F00
+************************ Start TSP_Init ************************
+ <FWTSP> : >> FwVersion:001B210E , Date:20100918
+************************* End TSP_Init *************************
+set Parl Invert 0
+[MApi_SI_System_Startup] OK !!
+MApi_DigiTuner_Init mutex id 1985216539
+MDrv_IIC_Init  PORT  1
+MDrv_IIC_InitPort0: OK
+[+]MDrv_CofdmDmd_Init
+
+ ------ AVL_DVBSx_Initialize -------IBase Initialization failed !
+[-]MDrv_CofdmDmd_Init
+
+=====1--- av2012  2---rda5815M   3,rda5815s========> s_nCompatTunerType = 1
+MApi_VectorFont_Init total size=3276800, free size=2824048, large size=2824004
+SysInit done .................................................
+[MApp_CheckFlash][1589] s8SN0 = 1
+
+ Start decode DB ...Decodesize = 0xbfb68
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+
+------------------------------ [sin] ------------------------------
+
+sin v1.00 released by shine.w on Aug  1 2013 21:20:23
+
+
+
+emu: biss
+
+
+[ZUI] init: sz_msg_q=6216
+CVBS ON, RGB OFF, HDMI ON
+[msCHIP_DAC_SetOutputSource][156] input bitmap: 0x00000011
+CVBS on
+SVIDEO off, YPBPR off, RGB on
+SCART on
+problem happen
+App_GetTVFormat:[0]
+[_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16                                                                                                 Height=1080
+[_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTo                                                                                                 tal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitDa                                                                                                 ta->u16Height=1080
+[_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData-                                                                                                 >u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16                                                                                                 Height=1080
+[_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTo                                                                                                 tal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitDa                                                                                                 ta->u16Height=1080
+[_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData-                                                                                                 >u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+DAC eTiming =6
+DAC eTiming =6
+HDMITx eTiming =7
+_appApmCa_Create
+[+]MApi_EpgDB_Init
+[-]MApi_EpgDB_Init
+MDrv_SERFLASH_GetInfo()
+        u32AccessWidth = 1
+        u32TotalSize   = 4194304
+        u32SecNum      = 64
+        u32SecSize     = 65536
+MApp_ZUI_ACT_StartupOSD TV_PROG
+leave MApp_ZUI_API_InitCanvasGDI -> MApp_ZUI_API_GetFontMVF in 131
+Set PAL
+
+BOOTSPI[34567893456789]_OK!decomp
+_done
+MDrv_PM_RtcGetCounter(CurrentCounter=0)
+
+Hello U-Boot
+
+
+U-Boot 1.1.6 (Jun  8 2016 - 02:04:11)
+
+Board: MSTAR KRNOUS (CPU Speed 552 MHz)
+DRAM:  64 X 0 MBytes
+U-Boot is running at DRAM 0x87610000
+###############BOARD CONFIGURATION#####################
+        DEFAULT ENBALE L2-Cache
+        FPU(ENABLE)
+   DDR_FREQUENCY(1066MHz)
+###############BOARD CONFIGURATION#####################
+Module: USB FAT FLASH SPI LOGO OSD ENV=SERIAL
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+In:    serial
+Out:   serial
+Err:   serial
+MSVC00B000100100208768TH0000000T
+MDrv_PNL_Init u32PnlRiuBaseAddr = BF200000
+MDrv_PNL_Init u32PMRiuBaseAddr = BF000000
+[XC,Version] 00423696
+ DAC eTiming =6
+HDMITx eTiming =7
+HDMITx eTiming =7
+u32ReadBuffVirAddr = A0000000, u32IntBuffVirAddr = A0100000, u32OutBuffVirAddr = A0730000
+verJPD_SetStatus >>>>>>>>>>> w:720,  h:576,  p:720
+GE_SetOnePixelMode
+Hit any key to stop autoboot:  0
+WDT Initialize ...
+Start 75F2000 End 76AC000
+UnProtect MIU block 0 : 0x75F2000 0x76AC000
+offset 0x8001C, size 0x279839
+WARNING: it is better to set flash start addr aligned to 65536 !!!
+WARNING: it is better to set total length aligned to 65536 !!!
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+initialization done!
+in=0x80B00000, in_size=0x279839, out= 0x80000180, alloc_buf = 0x81000000
+in=0x80B00000, in_size=0x279839, out= 0x80000180, alloc_buf = 0x81000000
+in_size=2594873 out_size=7516404 unpack_size=0
+
+LZMA Decompression...CRC_result 4E033ABF CRC_value 4E033ABF
+CRC check success !!
+ok
+## Starting application at 0x80000224 ...
+[cyg_net_init] Init: mbinit(0x00000000)
+[cyg_net_init] Init: cyg_net_init_devs(0x00000000)
+Init device 'pcnet_eth0'
+[cyg_net_init] Init: loopattach(0x00000000)
+[cyg_net_init] Init: ifinit(0x00000000)
+[cyg_net_init] Init: domaininit(0x00000000)
+[cyg_net_init] Init: cyg_net_add_domain(0x806dd2e4)
+New domain internet at 0x00000000
+[cyg_net_init] Init: cyg_net_add_domain(0x806dceac)
+New domain route at 0x00000000
+[cyg_net_init] Init: call_route_init(0x00000000)
+[cyg_net_init] Done
+****** Customer_info:Before ******
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+ abcdef => 0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+ ABCDEF => 0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+
+****** Customer_info ******
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+Customer info: 00580565002f000000000000000000000000000668f81800
+Hash: 1435f42f0715159735d1fb9fd855bb97
+Auth OK
+
+Hardware Initialize...
+MDrv_MIOMap_Init
+[HAL_MIU_SetPMIOMapBase][1107] Non implement for MIU _gPM_MapBase= bf000000
+MsOS_Init
+_MApi_SystemInit_CreateMemoryPool
+upoolSize = 320000 and u32Addr = 9D9120
+mdrv_gpio_init
+MIU Initialize...
+Get IOMap u32NonPmBase = 0xbf200000
+Get IOMap u32PmBase = 0xbf000000
+Disable MIU1
+WDT_Init
+MDrv_WDT_IsReset = 0
+Hello Hummingbird!!
+_appDemo_Task.iId = 1985216513
+[_SysInit_InitAPI][1698]SPI Flash Driver Init !!
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+create Audio SHM data ...
+
+HAL_MAD_SetMemInfo[DSP_DEC] = 0x03b00000
+
+HAL_MAD2_SetMemInfo[DSP_SE] = 0x03a00000
+ ADEC Done and do default setting 4
+===== Check Audio Decoder Protection from hash-key IP =====
+Hash-key Support DD.
+Hash-key Support DD+.
+Hash-key Support Generic HE-AAC !!
+Hash-key Support WMA.
+Hash Key Check DRA Fail, No DRA license!!
+===== Check Protection IP End                         =====
+MDrv_SERFLASH_GetInfo()
+        u32AccessWidth = 1
+        u32TotalSize   = 4194304
+        u32SecNum      = 64
+        u32SecSize     = 65536
+MDrv_PNL_Init u32PnlRiuBaseAddr = bf200000
+MDrv_PNL_Init u32PMRiuBaseAddr = bf000000
+[XC,Version] 00625983
+ DAC eTiming =6
+DAC eTiming =6
+HDMITx eTiming =7
+Wait V Sync!!
+GE_SetOnePixelMode
+driver GE init ok
+[_SysInit_GEGOP][1258]
+[_SysInit_GEGOP][1267]
+[_SysInit_GEGOP][1293]driver GOP0 init ok
+[_SysInit_GEGOP][1293]driver GOP1 init ok
+[_SysInit_GEGOP][1293]driver GOP2 init ok
+Path2
+Set to Mixer
+GE_Init and VE setting done
+BASEADDRESS_STRING_DATABASE_IN_FLASH = 00370000
+BASEADDRESS_BITMAP_DATABASE_IN_FLASH = 00370000
+BASEADDRESS_GENSETTING_IN_FLASH = 00370000
+BASEADDRESS_CURRENT_DTV_ORDER_IN_FLASH = 00380000
+BASEADDRESS_CH_DATABASE_IN_FLASH = 00390000
+BASEADDRESS_MOSAIC_IN_FLASH = 003D0000
+BASEADDRESS_TFCA_MAIL_IN_FLASH = 003D0000
+NUMBER_OF_CURRENT_DTV_PROGRAM = 00001000
+USB init
+MDrv_Usb_Init..
+Usb init
+The base address is 0xA16AB000
+Base addr is 0xA16AB000
+Top addr is 0xA16BAFFF
+Pages per pool is 16
+Bit map base addr is 0xa16aafd0
+usb_init start
+usb_hcd_cpe_ehci_probe
+ehci: 80cf7fa0
+hcd: 80cf7fd4
+The allocated addr is 0xa16ab000, bit_map[0] is 0xFFFFFFFE
+qh: a16ab000, qh->qh_dma: 16ab000
+The allocated addr is 0xa16ac000, bit_map[0] is 0xFFFFFFFC
+The allocated addr is 0xa16ad000, bit_map[0] is 0xFFFFFFF8
+qh: 16ab000
+usb_new_device
+usb_set_address before
+usb_set_address after
+The allocated addr is 0xa16ae000, bit_map[0] is 0xFFFFFFF0
+InitUSBIntr enter
+Usb start..
+MDrv_Usb_Done ...........UsbTask..
+......................................
+>>> Allocate Addr = A16A7EC0 , FwPhyAddr = 016A7F00
+************************ Start TSP_Init ************************
+ <FWTSP> : >> FwVersion:001B210E , Date:20100918
+************************* End TSP_Init *************************
+set Parl Invert 0
+[MApi_SI_System_Startup] OK !!
+MApi_DigiTuner_Init mutex id 1985216539
+MDrv_IIC_Init  PORT  1
+MDrv_IIC_InitPort0: OK
+[+]MDrv_CofdmDmd_Init
+
+ ------ AVL_DVBSx_Initialize -------IBase Initialization failed !
+[-]MDrv_CofdmDmd_Init
+
+=====1--- av2012  2---rda5815M   3,rda5815s========> s_nCompatTunerType = 1
+MApi_VectorFont_Init total size=3276800, free size=2824048, large size=2824004
+SysInit done .................................................
+[MApp_CheckFlash][1589] s8SN0 = 1
+
+ Start decode DB ...Decodesize = 0xbfb68
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+
+------------------------------ [sin] ------------------------------
+
+sin v1.00 released by shine.w on Aug  1 2013 21:20:23
+
+
+
+emu: biss
+
+
+[ZUI] init: sz_msg_q=6216
+CVBS ON, RGB OFF, HDMI ON
+[msCHIP_DAC_SetOutputSource][156] input bitmap: 0x00000011
+CVBS on
+SVIDEO off, YPBPR off, RGB on
+SCART on
+problem happen
+App_GetTVFormat:[0]
+[_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+DAC eTiming =6
+DAC eTiming =6
+HDMITx eTiming =7
+_appApmCa_Create
+[+]MApi_EpgDB_Init
+[-]MApi_EpgDB_Init
+MDrv_SERFLASH_GetInfo()
+        u32AccessWidth = 1
+        u32TotalSize   = 4194304
+        u32SecNum      = 64
+        u32SecSize     = 65536
+MApp_ZUI_ACT_StartupOSD TV_PROG
+leave MApp_ZUI_API_InitCanvasGDI -> MApp_ZUI_API_GetFontMVF in 131
+Set PAL
+▒oooooooooooooooo
+BOOTSPI[34567893456789]_OK!decomp
+_done
+MDrv_PM_RtcGetCounter(CurrentCounter=0)
+
+Hello U-Boot
+
+
+U-Boot 1.1.6 (Jun  8 2016 - 02:04:11)
+
+Board: MSTAR KRNOUS (CPU Speed 552 MHz)
+DRAM:  64 X 0 MBytes
+U-Boot is running at DRAM 0x87610000
+###############BOARD CONFIGURATION#####################
+        DEFAULT ENBALE L2-Cache
+        FPU(ENABLE)
+   DDR_FREQUENCY(1066MHz)
+###############BOARD CONFIGURATION#####################
+Module: USB FAT FLASH SPI LOGO OSD ENV=SERIAL
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+In:    serial
+Out:   serial
+Err:   serial
+MSVC00B000100100208768TH0000000T
+MDrv_PNL_Init u32PnlRiuBaseAddr = BF200000
+MDrv_PNL_Init u32PMRiuBaseAddr = BF000000
+[XC,Version] 00423696
+ DAC eTiming =6
+HDMITx eTiming =7
+HDMITx eTiming =7
+u32ReadBuffVirAddr = A0000000, u32IntBuffVirAddr = A0100000, u32OutBuffVirAddr = A0730000
+verJPD_SetStatus >>>>>>>>>>> w:720,  h:576,  p:720
+GE_SetOnePixelMode
+Hit any key to stop autoboot:  0
+WDT Initialize ...
+Start 75F2000 End 76AC000
+UnProtect MIU block 0 : 0x75F2000 0x76AC000
+offset 0x8001C, size 0x279839
+WARNING: it is better to set flash start addr aligned to 65536 !!!
+WARNING: it is better to set total length aligned to 65536 !!!
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+initialization done!
+in=0x80B00000, in_size=0x279839, out= 0x80000180, alloc_buf = 0x81000000
+in=0x80B00000, in_size=0x279839, out= 0x80000180, alloc_buf = 0x81000000
+in_size=2594873 out_size=7516404 unpack_size=0
+
+LZMA Decompression...CRC_result 4E033ABF CRC_value 4E033ABF
+CRC check success !!
+ok
+## Starting application at 0x80000224 ...
+[cyg_net_init] Init: mbinit(0x00000000)
+[cyg_net_init] Init: cyg_net_init_devs(0x00000000)
+Init device 'pcnet_eth0'
+[cyg_net_init] Init: loopattach(0x00000000)
+[cyg_net_init] Init: ifinit(0x00000000)
+[cyg_net_init] Init: domaininit(0x00000000)
+[cyg_net_init] Init: cyg_net_add_domain(0x806dd2e4)
+New domain internet at 0x00000000
+[cyg_net_init] Init: cyg_net_add_domain(0x806dceac)
+New domain route at 0x00000000
+[cyg_net_init] Init: call_route_init(0x00000000)
+[cyg_net_init] Done
+****** Customer_info:Before ******
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+ abcdef => 0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+ ABCDEF => 0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+
+****** Customer_info ******
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+Customer info: 00580565002f000000000000000000000000000668f81800
+Hash: 1435f42f0715159735d1fb9fd855bb97
+Auth OK
+
+Hardware Initialize...
+MDrv_MIOMap_Init
+[HAL_MIU_SetPMIOMapBase][1107] Non implement for MIU _gPM_MapBase= bf000000
+MsOS_Init
+_MApi_SystemInit_CreateMemoryPool
+upoolSize = 320000 and u32Addr = 9D9120
+mdrv_gpio_init
+MIU Initialize...
+Get IOMap u32NonPmBase = 0xbf200000
+Get IOMap u32PmBase = 0xbf000000
+Disable MIU1
+WDT_Init
+MDrv_WDT_IsReset = 0
+Hello Hummingbird!!
+_appDemo_Task.iId = 1985216513
+[_SysInit_InitAPI][1698]SPI Flash Driver Init !!
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+create Audio SHM data ...
+
+HAL_MAD_SetMemInfo[DSP_DEC] = 0x03b00000
+
+HAL_MAD2_SetMemInfo[DSP_SE] = 0x03a00000
+ ADEC Done and do default setting 4
+===== Check Audio Decoder Protection from hash-key IP =====
+Hash-key Support DD.
+Hash-key Support DD+.
+Hash-key Support Generic HE-AAC !!
+Hash-key Support WMA.
+Hash Key Check DRA Fail, No DRA license!!
+===== Check Protection IP End                         =====
+MDrv_SERFLASH_GetInfo()
+        u32AccessWidth = 1
+        u32TotalSize   = 4194304
+        u32SecNum      = 64
+        u32SecSize     = 65536
+MDrv_PNL_Init u32PnlRiuBaseAddr = bf200000
+MDrv_PNL_Init u32PMRiuBaseAddr = bf000000
+[XC,Version] 00625983
+ DAC eTiming =6
+DAC eTiming =6
+HDMITx eTiming =7
+Wait V Sync!!
+GE_SetOnePixelMode
+driver GE init ok
+[_SysInit_GEGOP][1258]
+[_SysInit_GEGOP][1267]
+[_SysInit_GEGOP][1293]driver GOP0 init ok
+[_SysInit_GEGOP][1293]driver GOP1 init ok
+[_SysInit_GEGOP][1293]driver GOP2 init ok
+Path2
+Set to Mixer
+GE_Init and VE setting done
+BASEADDRESS_STRING_DATABASE_IN_FLASH = 00370000
+BASEADDRESS_BITMAP_DATABASE_IN_FLASH = 00370000
+BASEADDRESS_GENSETTING_IN_FLASH = 00370000
+BASEADDRESS_CURRENT_DTV_ORDER_IN_FLASH = 00380000
+BASEADDRESS_CH_DATABASE_IN_FLASH = 00390000
+BASEADDRESS_MOSAIC_IN_FLASH = 003D0000
+BASEADDRESS_TFCA_MAIL_IN_FLASH = 003D0000
+NUMBER_OF_CURRENT_DTV_PROGRAM = 00001000
+USB init
+MDrv_Usb_Init..
+Usb init
+The base address is 0xA16AB000
+Base addr is 0xA16AB000
+Top addr is 0xA16BAFFF
+Pages per pool is 16
+Bit map base addr is 0xa16aafd0
+usb_init start
+usb_hcd_cpe_ehci_probe
+ehci: 80cf7fa0
+hcd: 80cf7fd4
+The allocated addr is 0xa16ab000, bit_map[0] is 0xFFFFFFFE
+qh: a16ab000, qh->qh_dma: 16ab000
+The allocated addr is 0xa16ac000, bit_map[0] is 0xFFFFFFFC
+The allocated addr is 0xa16ad000, bit_map[0] is 0xFFFFFFF8
+qh: 16ab000
+usb_new_device
+usb_set_address before
+usb_set_address after
+The allocated addr is 0xa16ae000, bit_map[0] is 0xFFFFFFF0
+InitUSBIntr enter
+Usb start..
+MDrv_Usb_Done ...........UsbTask..
+......................................
+>>> Allocate Addr = A16A7EC0 , FwPhyAddr = 016A7F00
+************************ Start TSP_Init ************************
+ <FWTSP> : >> FwVersion:001B210E , Date:20100918
+************************* End TSP_Init *************************
+set Parl Invert 0
+[MApi_SI_System_Startup] OK !!
+MApi_DigiTuner_Init mutex id 1985216539
+MDrv_IIC_Init  PORT  1
+MDrv_IIC_InitPort0: OK
+[+]MDrv_CofdmDmd_Init
+
+ ------ AVL_DVBSx_Initialize -------IBase Initialization failed !
+[-]MDrv_CofdmDmd_Init
+
+=====1--- av2012  2---rda5815M   3,rda5815s========> s_nCompatTunerType = 1
+MApi_VectorFont_Init total size=3276800, free size=2824048, large size=2824004
+SysInit done .................................................
+[MApp_CheckFlash][1589] s8SN0 = 1
+
+ Start decode DB ...Decodesize = 0xbfb68
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+
+------------------------------ [sin] ------------------------------
+
+sin v1.00 released by shine.w on Aug  1 2013 21:20:23
+
+
+
+emu: biss
+
+
+[ZUI] init: sz_msg_q=6216
+CVBS ON, RGB OFF, HDMI ON
+[msCHIP_DAC_SetOutputSource][156] input bitmap: 0x00000011
+CVBS on
+SVIDEO off, YPBPR off, RGB on
+SCART on
+problem happen
+App_GetTVFormat:[0]
+[_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+DAC eTiming =6
+DAC eTiming =6
+HDMITx eTiming =7
+_appApmCa_Create
+[+]MApi_EpgDB_Init
+[-]MApi_EpgDB_Init
+MDrv_SERFLASH_GetInfo()
+        u32AccessWidth = 1
+        u32TotalSize   = 4194304
+        u32SecNum      = 64
+        u32SecSize     = 65536
+MApp_ZUI_ACT_StartupOSD TV_PROG
+leave MApp_ZUI_API_InitCanvasGDI -> MApp_ZUI_API_GetFontMVF in 131
+Set PAL
+
+BOOTSPI[34567893456789]_OK!decomp
+_done
+MDrv_PM_RtcGetCounter(CurrentCounter=0)
+
+Hello U-Boot
+
+
+U-Boot 1.1.6 (Jun  8 2016 - 02:04:11)
+
+Board: MSTAR KRNOUS (CPU Speed 552 MHz)
+DRAM:  64 X 0 MBytes
+U-Boot is running at DRAM 0x87610000
+###############BOARD CONFIGURATION#####################
+        DEFAULT ENBALE L2-Cache
+        FPU(ENABLE)
+   DDR_FREQUENCY(1066MHz)
+###############BOARD CONFIGURATION#####################
+Module: USB FAT FLASH SPI LOGO OSD ENV=SERIAL
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+In:    serial
+Out:   serial
+Err:   serial
+MSVC00B000100100208768TH0000000T
+MDrv_PNL_Init u32PnlRiuBaseAddr = BF200000
+MDrv_PNL_Init u32PMRiuBaseAddr = BF000000
+[XC,Version] 00423696
+ DAC eTiming =6
+HDMITx eTiming =7
+HDMITx eTiming =7
+u32ReadBuffVirAddr = A0000000, u32IntBuffVirAddr = A0100000, u32OutBuffVirAddr = A0730000
+verJPD_SetStatus >>>>>>>>>>> w:720,  h:576,  p:720
+GE_SetOnePixelMode
+Hit any key to stop autoboot:  0
+WDT Initialize ...
+Start 75F2000 End 76AC000
+UnProtect MIU block 0 : 0x75F2000 0x76AC000
+offset 0x8001C, size 0x279839
+WARNING: it is better to set flash start addr aligned to 65536 !!!
+WARNING: it is better to set total length aligned to 65536 !!!
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+initialization done!
+in=0x80B00000, in_size=0x279839, out= 0x80000180, alloc_buf = 0x81000000
+in=0x80B00000, in_size=0x279839, out= 0x80000180, alloc_buf = 0x81000000
+in_size=2594873 out_size=7516404 unpack_size=0
+
+LZMA Decompression...CRC_result 4E033ABF CRC_value 4E033ABF
+CRC check success !!
+ok
+## Starting application at 0x80000224 ...
+[cyg_net_init] Init: mbinit(0x00000000)
+[cyg_net_init] Init: cyg_net_init_devs(0x00000000)
+Init device 'pcnet_eth0'
+[cyg_net_init] Init: loopattach(0x00000000)
+[cyg_net_init] Init: ifinit(0x00000000)
+[cyg_net_init] Init: domaininit(0x00000000)
+[cyg_net_init] Init: cyg_net_add_domain(0x806dd2e4)
+New domain internet at 0x00000000
+[cyg_net_init] Init: cyg_net_add_domain(0x806dceac)
+New domain route at 0x00000000
+[cyg_net_init] Init: call_route_init(0x00000000)
+[cyg_net_init] Done
+****** Customer_info:Before ******
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+ abcdef => 0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+ ABCDEF => 0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+
+****** Customer_info ******
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,0xbx,
+Customer info: 00580565002f000000000000000000000000000668f81800
+Hash: 1435f42f0715159735d1fb9fd855bb97
+Auth OK
+
+Hardware Initialize...
+MDrv_MIOMap_Init
+[HAL_MIU_SetPMIOMapBase][1107] Non implement for MIU _gPM_MapBase= bf000000
+MsOS_Init
+_MApi_SystemInit_CreateMemoryPool
+upoolSize = 320000 and u32Addr = 9D9120
+mdrv_gpio_init
+MIU Initialize...
+Get IOMap u32NonPmBase = 0xbf200000
+Get IOMap u32PmBase = 0xbf000000
+Disable MIU1
+WDT_Init
+MDrv_WDT_IsReset = 0
+Hello Hummingbird!!
+_appDemo_Task.iId = 1985216513
+[_SysInit_InitAPI][1698]SPI Flash Driver Init !!
+Flash is detected (0x090B, 0x1C, 0x30, 0x16)
+create Audio SHM data ...
+
+HAL_MAD_SetMemInfo[DSP_DEC] = 0x03b00000
+
+HAL_MAD2_SetMemInfo[DSP_SE] = 0x03a00000
+ ADEC Done and do default setting 4
+===== Check Audio Decoder Protection from hash-key IP =====
+Hash-key Support DD.
+Hash-key Support DD+.
+Hash-key Support Generic HE-AAC !!
+Hash-key Support WMA.
+Hash Key Check DRA Fail, No DRA license!!
+===== Check Protection IP End                         =====
+MDrv_SERFLASH_GetInfo()
+        u32AccessWidth = 1
+        u32TotalSize   = 4194304
+        u32SecNum      = 64
+        u32SecSize     = 65536
+MDrv_PNL_Init u32PnlRiuBaseAddr = bf200000
+MDrv_PNL_Init u32PMRiuBaseAddr = bf000000
+[XC,Version] 00625983
+ DAC eTiming =6
+DAC eTiming =6
+HDMITx eTiming =7
+Wait V Sync!!
+GE_SetOnePixelMode
+driver GE init ok
+[_SysInit_GEGOP][1258]
+[_SysInit_GEGOP][1267]
+[_SysInit_GEGOP][1293]driver GOP0 init ok
+[_SysInit_GEGOP][1293]driver GOP1 init ok
+[_SysInit_GEGOP][1293]driver GOP2 init ok
+Path2
+Set to Mixer
+GE_Init and VE setting done
+BASEADDRESS_STRING_DATABASE_IN_FLASH = 00370000
+BASEADDRESS_BITMAP_DATABASE_IN_FLASH = 00370000
+BASEADDRESS_GENSETTING_IN_FLASH = 00370000
+BASEADDRESS_CURRENT_DTV_ORDER_IN_FLASH = 00380000
+BASEADDRESS_CH_DATABASE_IN_FLASH = 00390000
+BASEADDRESS_MOSAIC_IN_FLASH = 003D0000
+BASEADDRESS_TFCA_MAIL_IN_FLASH = 003D0000
+NUMBER_OF_CURRENT_DTV_PROGRAM = 00001000
+USB init
+MDrv_Usb_Init..
+Usb init
+The base address is 0xA16AB000
+Base addr is 0xA16AB000
+Top addr is 0xA16BAFFF
+Pages per pool is 16
+Bit map base addr is 0xa16aafd0
+usb_init start
+usb_hcd_cpe_ehci_probe
+ehci: 80cf7fa0
+hcd: 80cf7fd4
+The allocated addr is 0xa16ab000, bit_map[0] is 0xFFFFFFFE
+qh: a16ab000, qh->qh_dma: 16ab000
+The allocated addr is 0xa16ac000, bit_map[0] is 0xFFFFFFFC
+The allocated addr is 0xa16ad000, bit_map[0] is 0xFFFFFFF8
+qh: 16ab000
+usb_new_device
+usb_set_address before
+usb_set_address after
+The allocated addr is 0xa16ae000, bit_map[0] is 0xFFFFFFF0
+InitUSBIntr enter
+Usb start..
+MDrv_Usb_Done ...........UsbTask..
+......................................
+>>> Allocate Addr = A16A7EC0 , FwPhyAddr = 016A7F00
+************************ Start TSP_Init ************************
+ <FWTSP> : >> FwVersion:001B210E , Date:20100918
+************************* End TSP_Init *************************
+set Parl Invert 0
+[MApi_SI_System_Startup] OK !!
+MApi_DigiTuner_Init mutex id 1985216539
+MDrv_IIC_Init  PORT  1
+MDrv_IIC_InitPort0: OK
+[+]MDrv_CofdmDmd_Init
+
+ ------ AVL_DVBSx_Initialize -------IBase Initialization failed !
+[-]MDrv_CofdmDmd_Init
+
+=====1--- av2012  2---rda5815M   3,rda5815s========> s_nCompatTunerType = 1
+MApi_VectorFont_Init total size=3276800, free size=2824048, large size=2824004
+SysInit done .................................................
+[MApp_CheckFlash][1589] s8SN0 = 1
+
+ Start decode DB ...Decodesize = 0xbfb68
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+MDrv_WDT_Disable
+allocate fail 1 0x0
+MDrv_WDT_IsReset = 0
+
+------------------------------ [sin] ------------------------------
+
+sin v1.00 released by shine.w on Aug  1 2013 21:20:23
+
+
+
+emu: biss
+
+
+[ZUI] init: sz_msg_q=6216
+CVBS ON, RGB OFF, HDMI ON
+[msCHIP_DAC_SetOutputSource][156] input bitmap: 0x00000011
+CVBS on
+SVIDEO off, YPBPR off, RGB on
+SCART on
+problem happen
+App_GetTVFormat:[0]
+[_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_LPLL][286]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_LPLL][288]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+[_MDrv_PNL_Init_Output_Dclk][345]pstPanelInitData->u16Width=1920, pstPanelInitData->u16Height=1080
+[_MDrv_PNL_Init_Output_Dclk][347]u16HTotal=2640,u16VTotal=1125,pstPanelInitData->u16HTotal=2640,pstPanelInitData->u16VTotal=1125, u16DefaultVFreq=500
+DAC eTiming =6
+DAC eTiming =6
+HDMITx eTiming =7
+_appApmCa_Create
+[+]MApi_EpgDB_Init
+[-]MApi_EpgDB_Init
+MDrv_SERFLASH_GetInfo()
+        u32AccessWidth = 1
+        u32TotalSize   = 4194304
+        u32SecNum      = 64
+        u32SecSize     = 65536
+MApp_ZUI_ACT_StartupOSD TV_PROG
+leave MApp_ZUI_API_InitCanvasGDI -> MApp_ZUI_API_GetFontMVF in 131
+Set PAL
+MDrv_SERFLASH_GetInfo()
+        u32AccessWidth = 1
+        u32TotalSize   = 4194304
+        u32SecNum      = 64
+        u32SecSize     = 65536
+
